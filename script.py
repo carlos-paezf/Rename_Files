@@ -75,15 +75,16 @@ def rename_files_and_folders(root, remove_accent_marks=False, remove_special_cha
             os.rename(current_folder, new_current_folder)
 
 
-root = ""
+if __name__ == '__main__':
+    root = input("Ingrese la ubicación de la carpeta a analizar: ")
 
-remove_accent_marks = True
-remove_special_characters = True
+    remove_accent_marks = True
+    remove_special_characters = True
 
-rename_files_and_folders(root, remove_accent_marks, remove_special_characters)
+    rename_files_and_folders(root, remove_accent_marks, remove_special_characters)
 
 
-end_time = time.time()
-execution_time = timedelta(seconds=end_time - start_time)
+    end_time = time.time()
+    execution_time = timedelta(seconds=end_time - start_time)
 
-print(f"Tiempo de ejecución: {execution_time} (hh:mm:ss)")
+    print(f"Tiempo de ejecución: {execution_time} (hh:mm:ss)")
