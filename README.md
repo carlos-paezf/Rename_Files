@@ -27,7 +27,7 @@ Para utilizar el script, sigue estos pasos:
 1. Clona el repositorio:
 
     ```txt
-    $: git clone <https://github.com/carlos-paezf/rename-files-and-folders.git>
+    $: git clone <https://github.com/carlos-paezf/Rename_Files.git>
     
     $: cd rename-files-and-folders
     ```
